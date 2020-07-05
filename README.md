@@ -1,7 +1,7 @@
 
 # Android-HumanActivityRecognition
 
-An Android app that uses a pre-trained Convolutional Neural Network (CNN) model to classify time series of accelerometer data into human activities (walking, sitting, going upstairs/downstairs) in real time.
+An Android app that uses a pre-trained Convolutional Neural Network (CNN) model to classify time series of accelerometer data into human activities (walking, sitting, going upstairs/downstairs) in real time. The app streams the classification data to a UDP socket running on a device in the local network.
 
 ## The CNN Model used in the app
 
